@@ -21,16 +21,16 @@ print(bindata)
 
 
 
-# Connect to your MongoDB
-client = MongoClient('localhost', 27017)  # Adjust connection info as needed
+## Connect to your MongoDB
+#client = MongoClient('localhost', 27017)  # Adjust connection info as needed
 
-# Select your database and collection
-db = client['your_database']
-collection = db['your_collection']
+## Select your database and collection
+#db = client['your_database']
+#collection = db['your_collection']
 
-# Query using the Binary data
-results = collection.find({"projectId": bindata})
+## Query using the Binary data
+#results = collection.find({"projectId": bindata})
 
-# Print out the results
-for document in results:
-    print(document)
+## Print out the results
+#for document in results:
+#    print(document)
