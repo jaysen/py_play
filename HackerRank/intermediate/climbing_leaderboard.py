@@ -1,3 +1,7 @@
+## HackerRank > Practice > Algorithms > Implementation > Climbing the Leaderboard
+# https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?isFullScreen=true
+
+
 # works but not all tests work in time given
 def climbing_leaderboard_v1(ranked, player):
     ranks = []
