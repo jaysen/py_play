@@ -6,8 +6,6 @@ import random
 import re
 import sys
 
-
-
 #
 # Complete the 'findMedian' function below.
 #
@@ -16,12 +14,15 @@ import sys
 #
 
 def findMedian(arr):
-    #sort array:
+    # sort array:
     arr.sort()
-    #get middle index:
+    # get middle index:
     middle = len(arr) // 2
-    #since input array is odd, middle index is the median:
+    # since input array is odd, middle index is the median:
     return arr[middle]
 
-
 if __name__ == '__main__':
+
+    a = [1, 2, 3, 4, 5]
+    print(findMedian(a))
+

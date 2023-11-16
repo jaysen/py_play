@@ -6,8 +6,6 @@ import random
 import re
 import sys
 
-
-
 #
 # Complete the 'longestEvenWord' function below.
 #
@@ -35,6 +33,7 @@ def longestEvenWord(sentence):
         # because Python's sort is stable the first largest is at start of list:
         return even_words[0]
 
+
 def longestEvenWord2(sentence):
     words = sentence.split()
     longest_even_word = "00"
@@ -47,8 +46,6 @@ def longestEvenWord2(sentence):
             longest_even_word = word
 
     return longest_even_word
-
-
 
 
 if __name__ == '__main__':
