@@ -53,4 +53,5 @@ def dijkstra(graph, source):
 
     return distances
 
+
 print(dijkstra(graph, 'A'))

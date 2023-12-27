@@ -1,5 +1,5 @@
 
-# practice implementation of quicksort:
+# katas implementation of quicksort:
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
